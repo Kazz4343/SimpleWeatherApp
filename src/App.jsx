@@ -25,18 +25,18 @@ function App() {
     console.log(weather)
     
     switch (weather) {
-      case 'Clear':
-        return <img src="/public/sun.png" alt="Sun" width={200} className="mt-15"/>;
-      case 'Snow':
-        return <img src="/public/snow.png" alt="Snow" width={200} className="mt-15"/>;
-      case 'Rain':
-        return <img src="/public/rainy-day.png" alt="Rain" width={200} className="mt-15"/>;
-      case 'Thunderstorm':
-        return <img src="/public/thunderstrom.png" alt="ThunderStorm" width={200} className="mt-15"/>;
-      case 'Clouds':
-        return <img src="/public/clouds.png" alt="Clouds" width={200} className="mt-15"/>;
-      default:
-        return <img src="/public/sun.png" alt="Sun" width={200} className="mt-15"/>;
+     case 'Clear':
+      return <img src="/sun.png" alt="Sun" width={200} className="mt-15"/>;
+    case 'Snow':
+      return <img src="/snow.png" alt="Snow" width={200} className="mt-15"/>;
+    case 'Rain':
+      return <img src="/rainy-day.png" alt="Rain" width={200} className="mt-15"/>;
+    case 'Thunderstorm':
+      return <img src="/thunderstrom.png" alt="ThunderStorm" width={200} className="mt-15"/>;
+    case 'Clouds':
+      return <img src="/clouds.png" alt="Clouds" width={200} className="mt-15"/>;
+    default :
+       return <img src="/sun.png" alt="Sun" width={200} className="mt-15"/>;
     }
   }
 
