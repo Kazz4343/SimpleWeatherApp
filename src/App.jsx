@@ -6,7 +6,7 @@ import { TiWeatherWindyCloudy } from "react-icons/ti";
 function App() {
   const [ city, setCity ] = useState("");
   const [ cityData, setCityData ] = useState("");
-  const API_KEY = '' //put Key from OpenWeather here
+  const API_KEY = import.meta.env.VITE_API_KEY
   const LINK = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
 
   const handleFetch = async (e) => {
