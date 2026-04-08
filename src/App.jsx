@@ -26,17 +26,17 @@ function App() {
     
     switch (weather) {
       case 'Clear':
-        return <img src="/src/sun.png" alt="Sun" width={200} className="mt-15"/>;
+        return <img src="/public/sun.png" alt="Sun" width={200} className="mt-15"/>;
       case 'Snow':
-        return <img src="/src/snow.png" alt="Snow" width={200} className="mt-15"/>;
+        return <img src="/public/snow.png" alt="Snow" width={200} className="mt-15"/>;
       case 'Rain':
-        return <img src="/src/rainy-day.png" alt="Rain" width={200} className="mt-15"/>;
+        return <img src="/public/rainy-day.png" alt="Rain" width={200} className="mt-15"/>;
       case 'Thunderstorm':
-        return <img src="/src/thunderstrom.png" alt="ThunderStorm" width={200} className="mt-15"/>;
+        return <img src="/public/thunderstrom.png" alt="ThunderStorm" width={200} className="mt-15"/>;
       case 'Clouds':
-        return <img src="/src/clouds.png" alt="Clouds" width={200} className="mt-15"/>;
+        return <img src="/public/clouds.png" alt="Clouds" width={200} className="mt-15"/>;
       default:
-        return <img src="/src/sun.png" alt="Sun" width={200} className="mt-15"/>;
+        return <img src="/public/sun.png" alt="Sun" width={200} className="mt-15"/>;
     }
   }
 
